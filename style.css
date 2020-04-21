@@ -1,0 +1,142 @@
+body {
+	font-family: Arial;
+	font-size: 13px;
+	color: #222;
+}
+a {
+	text-decoration: none;
+}
+.nav {
+	display: flex;
+	justify-content: flex-end;
+	border: 1px;
+}
+.nav a{
+	color:#222;
+}
+.imgcompte {
+	width: 40px;
+}
+.imgbouton {
+	width: 25px;
+	opacity: 0.7;
+}
+.item1 {
+	margin: auto 7px;
+}
+.item2 {
+	margin: auto 7px;
+}
+.item3 {
+	margin: auto 7px;
+}
+.item4 {
+	margin: auto 7px;
+}
+.item1 a:hover, .item2 a:hover {
+text-decoration: underline;
+}
+.item3 a:hover {
+	opacity: 1.0;
+}
+.logo {
+	max-width: 600px;
+	margin: auto;
+	padding-top: 105px;
+	padding-bottom: 20px;
+}
+.centrer {
+	max-width: 272px;
+	margin: auto;
+}
+.image {
+	width: 272px;
+}
+.cadre {
+	max-width: 600px;
+	margin: auto;
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+	height: 44px;
+	display: flex;
+	justify-content: space-between;
+}
+.imgloupe {
+	width: 25px;
+}
+.imgvocal {
+	width: 25px;
+}
+.loupe {
+	margin:auto 10px;
+}
+.vocal {
+	margin:auto 10px;
+}
+.form {
+	margin-bottom: 25px;
+}
+.buttons {
+	display: flex;
+	justify-content: space-around;
+	height:36px;
+	width: 320px;
+	margin: auto;
+	padding-bottom: 50px;
+}
+.recherche, .chance {
+	width: 140px;
+	background-color: #f2f2f2;
+	color:#5f6368;
+	font-size: 14px;
+	border-radius: 4px;
+}
+.recherche a, .chance a {
+	color:#5f6368;
+}
+.sousrecherche {
+	padding-top:9px;
+	padding-left: 13px;
+}
+.souschance {
+	padding-top:9px;
+	padding-left: 17px;
+}
+.langue {
+	max-width: 200px;
+	margin: auto;
+	padding-bottom: 240px;
+}
+.langue a:hover {
+	text-decoration: underline;
+}
+.footer1, .footer2 {
+	background-color: #f2f2f2;
+	height: 40px;
+}
+.footer1 {
+	font-size: 15px;
+	color:#5f6368;
+	border: 1px solid #e4e4e4;
+}
+.pays {
+	margin: auto 20px;
+}
+.footer2 {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	align-content: center;
+}
+.footer2 a {
+	color:#5f6368;
+}
+.footer2 a:hover {
+text-decoration: underline;
+}
+.footergauche, .footerdroit {
+	margin: auto 1px;
+}
+.lienfootg, .lienfootd {
+	margin: 20px;
+}
